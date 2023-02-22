@@ -1,0 +1,20 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 5.0,
+    "cookingTime": 100,
+    "recipeRetstackSize": 1,
+    "group": "furnace",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:UraniumBlock"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:Uranium"
+    },
+    "name": "uraniumcraft",
+    "namespace": "mod"
+  }
+}

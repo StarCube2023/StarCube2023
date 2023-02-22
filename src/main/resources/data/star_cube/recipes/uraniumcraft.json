@@ -1,0 +1,10 @@
+{
+  "group": "furnace",
+  "type": "minecraft:smelting",
+  "experience": 5,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "star_cube:uranium_block"
+  },
+  "result": "star_cube:uranium"
+}

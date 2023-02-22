@@ -1,0 +1,50 @@
+{
+  "mod_elements": [
+    {
+      "name": "UraniumBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_block"
+    },
+    {
+      "name": "Uranium",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.star_cube.uranium_block": "Uranium Block",
+      "item.star_cube.uranium": "Uranium"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "star_cube",
+    "modName": "Star Cube",
+    "version": "1.0.0",
+    "author": "morgan, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.starcube",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}
