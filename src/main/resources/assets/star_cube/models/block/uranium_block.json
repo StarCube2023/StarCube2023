@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "star_cube:blocks/uranium",
+    "up": "star_cube:blocks/uranium",
+    "north": "star_cube:blocks/uranium",
+    "east": "star_cube:blocks/uranium",
+    "south": "star_cube:blocks/uranium",
+    "west": "star_cube:blocks/uranium",
+    "particle": "star_cube:blocks/uranium"
+  },
+  "render_type": "solid"
+}
