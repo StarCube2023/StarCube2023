@@ -7,13 +7,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "uranium_block"
+    },
+    {
+      "name": "Uranium",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium"
+    },
+    {
+      "name": "Uraniumcraft",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniumcraft"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.star_cube.uranium_block": "Uranium Block"
+      "block.star_cube.uranium_block": "Uranium Block",
+      "item.star_cube.uranium": "Uranium"
     }
   },
   "foldersRoot": {
@@ -34,6 +51,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.starcube",
     "lockBaseModFiles": false
   },
