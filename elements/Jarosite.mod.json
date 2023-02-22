@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "uranium_item",
+    "texture": "jarosite_texture",
     "customModelName": "Normal",
-    "name": "Uranium",
+    "name": "Jarosite",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "MISC"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -25,7 +25,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "Matériaux Nucléaire"
+      "Matériaux utile au machine"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

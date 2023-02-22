@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "star_cube:blocks/jarosite",
+    "up": "star_cube:blocks/jarosite",
+    "north": "star_cube:blocks/jarosite",
+    "east": "star_cube:blocks/jarosite",
+    "south": "star_cube:blocks/jarosite",
+    "west": "star_cube:blocks/jarosite",
+    "particle": "star_cube:blocks/jarosite"
+  },
+  "render_type": "solid"
+}

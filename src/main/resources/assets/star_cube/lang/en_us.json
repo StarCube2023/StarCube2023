@@ -1,4 +1,6 @@
 {
   "block.star_cube.uranium_block": "Uranium Block",
+  "block.star_cube.jarosite_block": "Jarosite",
+  "item.star_cube.jarosite": "Jarosite",
   "item.star_cube.uranium": "Uranium"
 }

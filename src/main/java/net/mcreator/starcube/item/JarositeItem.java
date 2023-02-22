@@ -11,14 +11,14 @@ import net.minecraft.network.chat.Component;
 
 import java.util.List;
 
-public class UraniumItem extends Item {
-	public UraniumItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS).stacksTo(64).rarity(Rarity.COMMON));
+public class JarositeItem extends Item {
+	public JarositeItem() {
+		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(64).rarity(Rarity.COMMON));
 	}
 
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("Mat\u00E9riaux Nucl\u00E9aire"));
+		list.add(Component.literal("Mat\u00E9riaux utile au machine"));
 	}
 }

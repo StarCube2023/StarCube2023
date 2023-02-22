@@ -15,6 +15,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "uranium"
+    },
+    {
+      "name": "Uraniumcraft",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniumcraft"
+    },
+    {
+      "name": "JarositeBlock",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jarosite_block"
+    },
+    {
+      "name": "Jarosite",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jarosite"
     }
   ],
   "variable_elements": [],
@@ -22,6 +46,8 @@
   "language_map": {
     "en_us": {
       "block.star_cube.uranium_block": "Uranium Block",
+      "block.star_cube.jarosite_block": "Jarosite",
+      "item.star_cube.jarosite": "Jarosite",
       "item.star_cube.uranium": "Uranium"
     }
   },
@@ -43,6 +69,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.starcube",
     "lockBaseModFiles": false
   },
