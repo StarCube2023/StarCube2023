@@ -4,17 +4,17 @@
   "definition": {
     "recipeType": "Smelting",
     "xpReward": 5.0,
-    "cookingTime": 100,
+    "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "furnace",
     "recipeShapeless": false,
     "smeltingInputStack": {
-      "value": "CUSTOM:UraniumBlock"
+      "value": "CUSTOM:JarositeBlock"
     },
     "smeltingReturnStack": {
-      "value": "CUSTOM:Uranium"
+      "value": "CUSTOM:Jarosite"
     },
-    "name": "uraniumcraft",
+    "name": "jarosite_furnace",
     "namespace": "mod"
   }
 }

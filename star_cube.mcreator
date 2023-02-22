@@ -17,14 +17,6 @@
       "registry_name": "uranium"
     },
     {
-      "name": "Uraniumcraft",
-      "type": "recipe",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "uraniumcraft"
-    },
-    {
       "name": "JarositeBlock",
       "type": "block",
       "sortid": 5,
@@ -41,12 +33,20 @@
       "registry_name": "jarosite"
     },
     {
-      "name": "Jarositecraft",
+      "name": "JarositeFurnace",
       "type": "recipe",
-      "sortid": 7,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "jarositecraft"
+      "registry_name": "jarosite_furnace"
+    },
+    {
+      "name": "UraniumFurnace",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_furnace"
     }
   ],
   "variable_elements": [],
