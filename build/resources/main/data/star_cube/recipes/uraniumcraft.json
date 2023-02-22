@@ -1,6 +1,6 @@
 {
   "group": "furnace",
-  "type": "minecraft:smoking",
+  "type": "minecraft:smelting",
   "experience": 5,
   "cookingtime": 100,
   "ingredient": {
