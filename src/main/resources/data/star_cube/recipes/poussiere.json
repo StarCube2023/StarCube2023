@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "star_cube:uranium"
+    },
+    "1": {
+      "item": "star_cube:uranium"
+    },
+    "2": {
+      "item": "star_cube:uranium"
+    },
+    "3": {
+      "item": "star_cube:uranium"
+    }
+  },
+  "result": {
+    "item": "star_cube:uraniumconcentre",
+    "count": 1
+  }
+}

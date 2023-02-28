@@ -25,14 +25,6 @@
       "registry_name": "jarosite_block"
     },
     {
-      "name": "Jarosite",
-      "type": "item",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "jarosite"
-    },
-    {
       "name": "JarositeFurnace",
       "type": "recipe",
       "sortid": 8,
@@ -47,6 +39,70 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "uranium_furnace"
+    },
+    {
+      "name": "Jarositeingot",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jarositeingot"
+    },
+    {
+      "name": "Munitions",
+      "type": "tab",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "munitions"
+    },
+    {
+      "name": "Uraniumconcentre",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniumconcentre"
+    },
+    {
+      "name": "Craftpoussiereuranium",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftpoussiereuranium"
+    },
+    {
+      "name": "Douille9mm",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douille_9mm"
+    },
+    {
+      "name": "Chargeur9mm",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chargeur_9mm"
+    },
+    {
+      "name": "Craftchargeur9mm",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftchargeur_9mm"
+    },
+    {
+      "name": "Craftballe9mm",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftballe_9mm"
     }
   ],
   "variable_elements": [],
@@ -55,8 +111,12 @@
     "en_us": {
       "block.star_cube.uranium_block": "Uranium Block",
       "block.star_cube.jarosite_block": "Jarosite",
-      "item.star_cube.jarosite": "Jarosite",
-      "item.star_cube.uranium": "Uranium"
+      "itemGroup.tabmunitions": "Munitions",
+      "item.star_cube.douille_9mm": "Douille 9mm",
+      "item.star_cube.uranium": "Uranium",
+      "item.star_cube.chargeur_9mm": "Chargeur 9mm",
+      "item.star_cube.jarositeingot": "Jarositeingot",
+      "item.star_cube.uraniumconcentre": "Poussière d\u0027uranium"
     }
   },
   "foldersRoot": {

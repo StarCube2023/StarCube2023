@@ -29,6 +29,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.starcube.init.StarCubeModTabs;
 import net.mcreator.starcube.init.StarCubeModItems;
 import net.mcreator.starcube.init.StarCubeModFeatures;
 import net.mcreator.starcube.init.StarCubeModBlocks;
@@ -47,7 +48,7 @@ public class StarCubeMod {
 
 	public StarCubeMod() {
 		MinecraftForge.EVENT_BUS.register(this);
-
+		StarCubeModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		StarCubeModBlocks.REGISTRY.register(bus);
