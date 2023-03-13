@@ -1,0 +1,19 @@
+{
+  "group": "balle",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    }
+  ],
+  "result": {
+    "item": "star_cube:douille_9mm",
+    "count": 2
+  }
+}

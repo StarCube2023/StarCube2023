@@ -29,6 +29,8 @@ public class StarCubeModItems {
 	public static final RegistryObject<Item> URANIUMCONCENTRE = REGISTRY.register("uraniumconcentre", () -> new UraniumconcentreItem());
 	public static final RegistryObject<Item> DOUILLE_9MM = REGISTRY.register("douille_9mm", () -> new Douille9mmItem());
 	public static final RegistryObject<Item> CHARGEUR_9MM = REGISTRY.register("chargeur_9mm", () -> new Chargeur9mmItem());
+	public static final RegistryObject<Item> MODULEDECONCENTRATION = block(StarCubeModBlocks.MODULEDECONCENTRATION,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

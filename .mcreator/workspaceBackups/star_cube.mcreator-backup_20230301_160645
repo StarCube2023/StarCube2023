@@ -95,6 +95,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "craftchargeur_9mm"
+    },
+    {
+      "name": "Craftballe9mm",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftballe_9mm"
     }
   ],
   "variable_elements": [],

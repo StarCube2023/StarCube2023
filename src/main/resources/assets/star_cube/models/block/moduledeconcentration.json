@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "star_cube:blocks/cobble",
+    "up": "star_cube:blocks/cobble",
+    "north": "star_cube:blocks/devan_module",
+    "east": "star_cube:blocks/module_coter_ndf",
+    "south": "star_cube:blocks/derriere_machine",
+    "west": "star_cube:blocks/module_coter_ndf",
+    "particle": "star_cube:blocks/cobble"
+  },
+  "render_type": "solid"
+}

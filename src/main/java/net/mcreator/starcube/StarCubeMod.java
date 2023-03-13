@@ -30,9 +30,11 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.starcube.init.StarCubeModTabs;
+import net.mcreator.starcube.init.StarCubeModMenus;
 import net.mcreator.starcube.init.StarCubeModItems;
 import net.mcreator.starcube.init.StarCubeModFeatures;
 import net.mcreator.starcube.init.StarCubeModBlocks;
+import net.mcreator.starcube.init.StarCubeModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -54,7 +56,10 @@ public class StarCubeMod {
 		StarCubeModBlocks.REGISTRY.register(bus);
 		StarCubeModItems.REGISTRY.register(bus);
 
+		StarCubeModBlockEntities.REGISTRY.register(bus);
 		StarCubeModFeatures.REGISTRY.register(bus);
+
+		StarCubeModMenus.REGISTRY.register(bus);
 
 	}
 

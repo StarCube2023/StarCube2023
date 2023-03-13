@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "star_cube:block/moduledeconcentration"
+    },
+    "facing=east": {
+      "model": "star_cube:block/moduledeconcentration",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "star_cube:block/moduledeconcentration",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "star_cube:block/moduledeconcentration",
+      "y": 270
+    }
+  }
+}

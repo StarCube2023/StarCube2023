@@ -1,0 +1,28 @@
+{
+  "group": "munitions",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "star_cube:douille_9mm"
+    },
+    {
+      "item": "star_cube:douille_9mm"
+    },
+    {
+      "item": "star_cube:douille_9mm"
+    },
+    {
+      "item": "star_cube:douille_9mm"
+    },
+    {
+      "item": "star_cube:douille_9mm"
+    },
+    {
+      "item": "star_cube:douille_9mm"
+    }
+  ],
+  "result": {
+    "item": "star_cube:chargeur_9mm",
+    "count": 1
+  }
+}
